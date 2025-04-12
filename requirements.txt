@@ -1,0 +1,12 @@
+tqdm==4.67.1
+requests==2.32.3
+psutil==7.0.0
+beautifulsoup4==4.13.3
+scikit-learn==1.6.1
+pandas==2.2.3
+nltk==3.9.1
+tokenizers==0.21.1
+transformers==4.49.0
+tensorflow==2.16.2
+rouge_score-0.1.2
+tf_keras==2.19.0

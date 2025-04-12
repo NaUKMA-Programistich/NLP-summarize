@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# TensorFlow/Hugging Face
+checkpoints/
+*.h5
+*.ckpt
+*.tfrecords
+*.tflite
+/simple/logs/
+/medium/logs/
+/hard/logs/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# Local model files
+/models/t5/trained_summarizer
+/models/t5/logs
+/models/t5/training_log.csv
+
+/models/distilbart/trained_summarizer
+/models/distilbart/logs
+/models/distilbart/training_log.csv
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Build/distribution
+dist/
+build/
+*.so
+*.dll
+*.exe
+*.app
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Test files
+.coverage
+htmlcov/
+.pytest_cache/
+test_results.xml
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Dataset
+dataset_hard.csv
+dataset_simple.csv
+
+results.csv
+results.txt
+text.txt
+
+.venv
